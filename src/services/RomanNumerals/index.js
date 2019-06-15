@@ -1,5 +1,7 @@
 import convertToRoman from "./convertToRoman";
+import convertFromRoman from "./convertFromRoman";
 
 export default {
-  toRoman: convertToRoman
+  toRoman: convertToRoman,
+  fromRoman: convertFromRoman
 };

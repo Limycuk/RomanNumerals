@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;
@@ -25,4 +29,17 @@
 .converter {
   display: flex;
   justify-content: space-around;
+}
+
+.formatted-roman {
+  min-width: 100px;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+input {
+  font-size: 20px;
+  min-width: 230px;
 }
